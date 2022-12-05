@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="psoc6,rdk2,led,uart,hello world">
+  <app keywords="psoc6,rdk2,led,uart,hello world" req_capabilities_v2="[rdk2]">
     <name>RDK2 Hello World</name>
     <category>Getting Started</category>
     <id>rdk2-hello-world</id>
