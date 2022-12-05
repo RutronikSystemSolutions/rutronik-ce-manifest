@@ -1,6 +1,6 @@
 <apps version="2.0">
   <app keywords="psoc6,rdk2,led,uart,hello world" req_capabilities_v2="[rdk2]">
-    <name>Hello World</name>
+    <name>RDK2 Hello World</name>
     <category>Getting Started</category>
     <id>rdk2-hello-world</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_Hello_World</uri>
