@@ -56,7 +56,7 @@
       </version>
     </versions>
   </app>
-    <app keywords="psoc6,rdk2,adc,dma,pdl,arduino" req_capabilities_v2="[rdk2]">
+  <app keywords="psoc6,rdk2,adc,dma,pdl,arduino" req_capabilities_v2="[rdk2]">
     <name>RDK2 ADC DMA PDL Example</name>
     <category>Peripherals</category>
     <id>rdk2-arduino-adc-dma-pdl</id>
