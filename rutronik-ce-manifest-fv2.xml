@@ -380,7 +380,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk2,voice,epson" req_capabilities_v2="[rdk2]">
-    <name>RDK2 Epson Text-To-Sppech Demo</name>
+    <name>RDK2 Epson Text-To-Speech Demo</name>
     <category>Voice</category>
     <id>rdk2-text-to-speech-demo</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_TextToSpeech_Demo</uri>
