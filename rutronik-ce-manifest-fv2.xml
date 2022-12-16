@@ -227,7 +227,6 @@
       </version>
     </versions>
   </app>
-  <!--
   <app keywords="psoc6,rdk2" req_capabilities_v2="[rdk2]">
     <name>RDK2 Factory Firmware</name>
     <category>Peripherals</category>
@@ -247,7 +246,6 @@
       </version>
     </versions>
   </app>
-  -->
   <app keywords="psoc6,rdk2,qspi,semper,flash,xip,S25HL512" req_capabilities_v2="[rdk2]">
     <name>RDK2 QSPI Flash XIP Example</name>
     <category>Peripherals</category>
@@ -267,7 +265,6 @@
       </version>
     </versions>
   </app>
-  <!--
   <app keywords="psoc6,rdk2,qspi,psram,APS6404L" req_capabilities_v2="[rdk2]">
     <name>RDK2 QSPI PSRAM Dynamic Allocation Example</name>
     <category>Peripherals</category>
@@ -287,8 +284,6 @@
       </version>
     </versions>
   </app>
-  -->
-  <!--
   <app keywords="psoc6,rdk2,qspi,psram,APS6404L,xip" req_capabilities_v2="[rdk2]">
     <name>RDK2 QSPI PSRAM XIP Example</name>
     <category>Peripherals</category>
@@ -308,7 +303,6 @@
       </version>
     </versions>
   </app>
-  -->
   <app keywords="psoc6,rdk2,bme688,bsec" req_capabilities_v2="[rdk2]">
     <name>RDK2 RAB1-SENSORFUSION BME688 BSEC Example</name>
     <category>Sensing</category>
