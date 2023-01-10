@@ -18,6 +18,7 @@
       </version>
     </versions>
   </app>
+  <!--
   <app keywords="psoc6,rdk2,ams,tof,arduino" req_capabilities_v2="[rdk2]">
     <name>RDK2 AMS TOF8820 Example</name>
     <category>Sensing</category>
@@ -37,6 +38,7 @@
       </version>
     </versions>
   </app>
+  -->
   <app keywords="psoc6,rdk2,adc,dma,pdl,arduino" req_capabilities_v2="[rdk2]">
     <name>RDK2 ADC DMA PDL Example</name>
     <category>Peripherals</category>
