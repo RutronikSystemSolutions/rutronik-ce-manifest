@@ -476,7 +476,7 @@
   </app>
   <app keywords="psoc6,rdk3,ble,beacon,eddystone" req_capabilities_v2="[rdk3]">
     <name>RDK3 Eddystone Beacon</name>
-    <category>Peripherals</category>
+    <category>Bluetooth&#174;</category>
     <id>rdk3-ble-beacon</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Beacon</uri>
     <description><![CDATA[This example demonstrates how to use the HAL library to measure all the ADC channels on the Arduino ADC header.
@@ -495,7 +495,7 @@
   </app>
   <app keywords="psoc6,rdk3,ble,find-me" req_capabilities_v2="[rdk3]">
     <name>RDK3 BLE Find Me</name>
-    <category>Peripherals</category>
+    <category>Bluetooth&#174;</category>
     <id>rdk3-ble-find-me</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me</uri>
     <description><![CDATA[This is a typical code example that demonstrates a custom BLE “Find Me” Profile.
@@ -514,7 +514,7 @@
   </app>
   <app keywords="psoc6,rdk3,ble,heart-rate" req_capabilities_v2="[rdk3]">
     <name>RDK3 BLE ROHM Heart Rate Measurement</name>
-    <category>Sensing</category>
+    <category>Bluetooth&#174;</category>
     <id>rdk3-ble-rohm-heart-rate</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_ROHM_Heart_Rate</uri>
     <description><![CDATA[This code example demonstrates a BLE Heart Rate Service with a BH1792 optical heart rate sensor from ROHM.
@@ -533,7 +533,7 @@
   </app>
   <app keywords="psoc6,rdk3,ble,sensorfusion,sensor-hub" req_capabilities_v2="[rdk3]">
     <name>RDK3 BLE Sensor Hub</name>
-    <category>Sensing</category>
+    <category>Bluetooth&#174;</category>
     <id>rdk3-ble-sensorhub</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub</uri>
     <description><![CDATA[This code example demonstrates the Android OS “AIROC Bluetooth Connect” application’s custom BLE service “Sensor Hub”. The accelerometer, barometer, thermometer, and battery voltage data may be monitored using this service. The RAB1-SENSORFUSION demo board and Li-ION single-cell battery are needed additionally for this application to function properly.
@@ -552,7 +552,7 @@
   </app>
   <app keywords="psoc6,rdk3,ble,throughput-measurement-client" req_capabilities_v2="[rdk3]">
     <name>RDK3 BLE Throughput Measurement Client</name>
-    <category>Peripherals</category>
+    <category>Bluetooth&#174;</category>
     <id>rdk3-ble-throughput-measurement-client</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Client</uri>
     <description><![CDATA[This is a code example for the BLE 5.1 Throughput Measurement GATT client device. Two RDK3 development kits are needed for this demo to function. One functions as a server and the other one as a client device.
@@ -571,7 +571,7 @@
   </app>
   <app keywords="psoc6,rdk3,ble,throughput-measurement-server" req_capabilities_v2="[rdk3]">
     <name>RDK3 BLE Throughput Measurement Server</name>
-    <category>Peripherals</category>
+    <category>Bluetooth&#174;</category>
     <id>rdk3-troughput-measurement-server</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Server</uri>
     <description><![CDATA[This is a code example for the BLE 5.1 Throughput Measurement GATT server device. Two RDK3 development kits are needed for this demo to function. One functions as a GATT server and the other one as a GATT client device.
@@ -778,7 +778,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,rdk4,led,uart,hello world" req_capabilities_v2="[rdk4]">
+  <app keywords="psoc4,rdk4,led,uart,hello world" req_capabilities_v2="[rdk2]">
     <name>RDK4 Hello World</name>
     <category>Getting Started</category>
     <id>rdk4-hello-world</id>
@@ -797,7 +797,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk2]">
     <name>RDK4 Empty Application</name>
     <category>Getting Started</category>
     <id>empty-rdk4-app</id>
