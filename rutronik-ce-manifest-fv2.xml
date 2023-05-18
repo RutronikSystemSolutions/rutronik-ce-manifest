@@ -77,7 +77,7 @@
   </app>
   <app keywords="psoc6,rdk2,capsense,csd,slider" req_capabilities_v2="[rdk2]">
     <name>RDK2 CAPSENSE CSD Slider Example</name>
-    <category>Peripherals</category>
+    <category>Sensing</category>
     <id>rdk2-capsense-csd-slider</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_CapSense_CSD_Slider</uri>
     <description><![CDATA[This example is demonstrates how to use CAPSENSE™ Slider in CSD mode.
@@ -96,7 +96,7 @@
   </app>
   <app keywords="psoc6,rdk2,capsense,csx,slider" req_capabilities_v2="[rdk2]">
     <name>RDK2 CAPSENSE CSX Slider Example</name>
-    <category>Peripherals</category>
+    <category>Sensing</category>
     <id>rdk2-capsense-csx-slider</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_CapSense_CSX_Slider</uri>
     <description><![CDATA[This example is demonstrates how to use CAPSENSE™ Slider in CSX mode.
@@ -590,7 +590,7 @@
   </app>
   <app keywords="psoc6,rdk3,capsense" req_capabilities_v2="[rdk3]">
     <name>RDK3 CAPSENSE Buttons</name>
-    <category>Peripherals</category>
+    <category>Sensing</category>
     <id>rdk3-capsense-buttons</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_CapSense_Buttons</uri>
     <description><![CDATA[This code example demonstrates the CAPSENSE™ buttons that are working in CSX mode.
