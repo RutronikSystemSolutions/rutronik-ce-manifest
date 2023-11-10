@@ -815,7 +815,7 @@
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app>  
+  </app>
   <app keywords="psoc4,rdk4,led,uart,hello world" req_capabilities_v2="[rdk4]">
     <name>RDK4 Hello World</name>
     <category>Getting Started</category>
