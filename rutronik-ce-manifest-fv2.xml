@@ -608,7 +608,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,find-me" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth&#174; LE Find Me</name>
+    <name>RDK3 Bluetooth LE Find Me</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-find-me</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me</uri>
@@ -627,7 +627,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,heart-rate" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth&#174; LE ROHM Heart Rate Measurement</name>
+    <name>RDK3 Bluetooth LE ROHM Heart Rate Measurement</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-rohm-heart-rate</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_ROHM_Heart_Rate</uri>
@@ -646,7 +646,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,sensorfusion,sensor-hub" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth&#174; LE Sensor Hub</name>
+    <name>RDK3 Bluetooth; LE Sensor Hub</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-sensorhub</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub</uri>
@@ -665,7 +665,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,throughput-measurement-client" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth&#174; LE Throughput Measurement Client</name>
+    <name>RDK3 Bluetooth LE Throughput Measurement Client</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-throughput-measurement-client</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Client</uri>
@@ -684,7 +684,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,throughput-measurement-server" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth&#174; LE Throughput Measurement Server</name>
+    <name>RDK3 Bluetooth LE Throughput Measurement Server</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-troughput-measurement-server</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Server</uri>
