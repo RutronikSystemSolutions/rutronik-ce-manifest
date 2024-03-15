@@ -194,7 +194,7 @@
     <category>Peripherals</category>
     <id>rdk2-obdii-application</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_OBDII_Application</uri>
-    <description><![CDATA[This application is intended to be used as a reference firmware example for the developers who need to quick-start with PSoC62 and CANFD OBD-II protocol.
+    <description><![CDATA[This application is intended to be used as a reference firmware example for the developers who need to quick-start with PSoC&#8482; 62 and CANFD OBD-II protocol.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_OBDII_Application/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
     <versions>
@@ -460,7 +460,7 @@
     <category>Sensing</category>
     <id>rdk2-rab3-config-tool</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Config_Tool</uri>
-    <description><![CDATA[This ModusToolbox application enables the RDK2 development kit and RAB3-Radar adapter board to be used with the Infineon Config Tool for the configuration of the Nisshinbo NJR4652 radar modules.
+    <description><![CDATA[This ModusToolbox&#8482; application enables the RDK2 development kit and RAB3-Radar adapter board to be used with the Infineon Config Tool for the configuration of the Nisshinbo NJR4652 radar modules.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Config_Tool/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
     <versions>
@@ -479,7 +479,7 @@
     <category>Sensing</category>
     <id>rdk2-rab3-radar-fusion</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Fusion</uri>
-    <description><![CDATA[This ModusToolbox application enables the RDK2 development kit and RAB3-Radar adapter board to be used with Infineon Radar Fusion GUI.
+    <description><![CDATA[This ModusToolbox&#8482; application enables the RDK2 development kit and RAB3-Radar adapter board to be used with Infineon Radar Fusion GUI.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Fusion/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
     <versions>
@@ -536,7 +536,7 @@
     <category>Sensing</category>
     <id>rdk2-rab3-radar-sensing</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Sensing</uri>
-    <description><![CDATA[This code example is a BGT60TR13C Radar Presence Detection and Counting Persons algorithms demonstration. The ModusToolbox project is based on the xensiv-radar-sensing library and its documentation. 
+    <description><![CDATA[This code example is a BGT60TR13C Radar Presence Detection and Counting Persons algorithms demonstration. The ModusToolbox&#8482; project is based on the xensiv-radar-sensing library and its documentation. 
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Sensing/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
     <versions>
@@ -608,7 +608,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,find-me" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth LE Find Me</name>
+    <name>RDK3 Bluetooth&#174; LE Find Me</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-find-me</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me</uri>
@@ -627,7 +627,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,heart-rate" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth LE ROHM Heart Rate Measurement</name>
+    <name>RDK3 Bluetooth&#174; LE ROHM Heart Rate Measurement</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-rohm-heart-rate</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_ROHM_Heart_Rate</uri>
@@ -646,11 +646,11 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,sensorfusion,sensor-hub" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth LE Sensor Hub</name>
+    <name>RDK3 Bluetooth&#174; LE Sensor Hub</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-sensorhub</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub</uri>
-    <description><![CDATA[This code example demonstrates the Android OS “AIROC Bluetooth Connect” application’s custom Bluetooth&#174; Low Energy service “Sensor Hub”. The accelerometer, barometer, thermometer, and battery voltage data may be monitored using this service. The RAB1-SENSORFUSION demo board and Li-ION single-cell battery are needed additionally for this application to function properly.
+    <description><![CDATA[This code example demonstrates the Android OS “AIROC&#8482; Bluetooth&#174; Connect” application’s custom Bluetooth&#174; Low Energy service “Sensor Hub”. The accelerometer, barometer, thermometer, and battery voltage data may be monitored using this service. The RAB1-SENSORFUSION demo board and Li-ION single-cell battery are needed additionally for this application to function properly.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
     <versions>
@@ -665,7 +665,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,throughput-measurement-client" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth LE Throughput Measurement Client</name>
+    <name>RDK3 Bluetooth&#174; LE Throughput Measurement Client</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-throughput-measurement-client</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Client</uri>
@@ -684,7 +684,7 @@
     </versions>
   </app>
   <app keywords="psoc6,rdk3,ble,throughput-measurement-server" req_capabilities_v2="[rdk3]">
-    <name>RDK3 Bluetooth LE Throughput Measurement Server</name>
+    <name>RDK3 Bluetooth&#174; LE Throughput Measurement Server</name>
     <category>Bluetooth&#174;</category>
     <id>rdk3-troughput-measurement-server</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Server</uri>
@@ -897,7 +897,7 @@
     <category>Sensing</category>
     <id>rdk3-d6t32l01a-demo</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_D6T32L01A_Demo</uri>
-    <description><![CDATA[This is the OMRON D6T32L01A sensor demonstration in ModusToolbox™ IDE using the Rutronik RDK3 development kit.
+    <description><![CDATA[This is the OMRON D6T32L01A sensor demonstration in ModusToolbox&#8482; IDE using the Rutronik RDK3 development kit.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_D6T32L01A_Demo/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
     <versions>
@@ -1049,7 +1049,7 @@
     <category>Peripherals</category>
     <id>rdk4-sbc-obd2-example</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK4_SBC_OBDII_Example</uri>
-    <description><![CDATA[This application is to be used as a reference firmware example for the developers who need to quick-start with PSoC4100S Max and System Basis Chip TLE9262-3BQXV33 CANFD OBD-II protocol.
+    <description><![CDATA[This application is to be used as a reference firmware example for the developers who need to quick-start with PSoC&#8482; 4100S Max and System Basis Chip TLE9262-3BQXV33 CANFD OBD-II protocol.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_SBC_OBDII_Example/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
     <versions>
@@ -1163,7 +1163,7 @@
     <category>Peripherals</category>
     <id>rdk4-osire-demo</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK4_OSIRE_DEMO</uri>
-    <description><![CDATA[OSIRE® E3731i LEDs OSP protocol demonstration on RDK4 – PSoC4100 Max.
+    <description><![CDATA[OSIRE® E3731i LEDs OSP protocol demonstration on RDK4 – PSoC&#8482; 4100 Max.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_OSIRE_DEMO/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
     <versions>
