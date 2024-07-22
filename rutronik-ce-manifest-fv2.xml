@@ -550,6 +550,63 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,rdk2,um980,rtk,rtk-base" req_capabilities_v2="[rdk2]">
+    <name>RDK2 UM980 Base Station</name>
+    <category>Sensing</category>
+    <id>rdk2-rab4-rtk-rtcm-station</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB4_RTK_UM980_RTCM_Base_Station</uri>
+    <description><![CDATA[This example demonstrates how to use the UM980 sensor as a base station.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB4_RTK_UM980_RTCM_Base_Station/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3-Radar Presence Detection and GUI</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-radar-presence-gui</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Presence_Detection</uri>
+    <description><![CDATA[This code example demonstrates digital signal processing implemented on a PSoC&#8482;62 for use with a BGT60TR13C radar sensor from Infineon.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Presence_Detection/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3-Radar DSP with GUI</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-radar-dsp-gui</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_USB_Gateway</uri>
+    <description><![CDATA[This code example demonstrates digital signal processing implemented on the computer side to be used with a BGT60TR13C radar sensor from Infineon and an RDK2 development board from Rutronik.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_USB_Gateway/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,rdk3,led,uart,hello world" req_capabilities_v2="[rdk3]">
     <name>RDK3 Hello World</name>
     <category>Getting Started</category>
