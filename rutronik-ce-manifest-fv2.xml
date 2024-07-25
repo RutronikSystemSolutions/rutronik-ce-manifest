@@ -669,7 +669,7 @@
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-find-me</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me</uri>
-    <description><![CDATA[This is a typical code example that demonstrates a custom Bluetooth&#174; Low Energy Find Me Profile.
+    <description><![CDATA[This is a typical code example that demonstrates a custom Bluetooth&#174; Low Energy &#34;Find Me&#34; Profile.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
     <versions>
@@ -707,7 +707,7 @@
     <category>Bluetooth&#174;</category>
     <id>rdk3-ble-sensorhub</id>
     <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub</uri>
-    <description><![CDATA[This code example demonstrates the Android OS “AIROC&#8482; Bluetooth&#174; Connect” application’s custom Bluetooth&#174; Low Energy service “Sensor Hub”. The accelerometer, barometer, thermometer, and battery voltage data may be monitored using this service. The RAB1-SENSORFUSION demo board and Li-ION single-cell battery are needed additionally for this application to function properly.
+    <description><![CDATA[This code example demonstrates the Android OS &#34;AIROC&#8482; Bluetooth&#174; Connect&#34; application&#8217;s custom Bluetooth&#174; Low Energy service &#34;Sensor Hub&#34;. The accelerometer, barometer, thermometer, and battery voltage data may be monitored using this service. The RAB1-SENSORFUSION demo board and Li-ION single-cell battery are needed additionally for this application to function properly.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
     <versions>
