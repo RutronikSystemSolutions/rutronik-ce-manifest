@@ -1,0 +1,1427 @@
+<apps version="2.0">
+  <app keywords="psoc6,rdk2,led,uart,hello world" req_capabilities_v2="[rdk2]">
+    <name>RDK2 Hello World</name>
+    <category>Getting Started</category>
+    <id>rdk2-hello-world</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_Hello_World</uri>
+    <description><![CDATA[This example is an introduction to the basic components of the board: LEDs, Buttons and KitProg3 UART for debug.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_Hello_World/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,adc,dma,pdl,arduino" req_capabilities_v2="[rdk2]">
+    <name>RDK2 ADC DMA PDL Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-arduino-adc-dma-pdl</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_Arduino_ADC_DMA_PDL</uri>
+    <description><![CDATA[This example demonstrates how to use PDL library to measure all the ADC channels on the Arduino ADC header.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_Arduino_ADC_DMA_PDL/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,adc,hal,arduino" req_capabilities_v2="[rdk2]">
+    <name>RDK2 ADC HAL Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-arduino-adc-hal</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_Arduino_ADC_HAL</uri>
+    <description><![CDATA[This example demonstrates how to use HAL library to measure all the ADC channels on the Arduino ADC header.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_Arduino_ADC_HAL/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,can,canfd" req_capabilities_v2="[rdk2]">
+    <name>RDK2 CAN FD Test</name>
+    <category>Peripherals</category>
+    <id>rdk2-canfd-test</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_CANFD_Test</uri>
+    <description><![CDATA[This example is used for CAN FD peripheral testing.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_CANFD_Test/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,capsense,csd,slider" req_capabilities_v2="[rdk2]">
+    <name>RDK2 CAPSENSE CSD Slider Example</name>
+    <category>Sensing</category>
+    <id>rdk2-capsense-csd-slider</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_CapSense_CSD_Slider</uri>
+    <description><![CDATA[This example is demonstrates how to use CAPSENSE&#8482; Slider in CSD mode.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_CapSense_CSD_Slider/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,capsense,csx,slider" req_capabilities_v2="[rdk2]">
+    <name>RDK2 CAPSENSE CSX Slider Example</name>
+    <category>Sensing</category>
+    <id>rdk2-capsense-csx-slider</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_CapSense_CSX_Slider</uri>
+    <description><![CDATA[This example is demonstrates how to use CAPSENSE&#8482; Slider in CSX mode.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_CapSense_CSX_Slider/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rs485,modbus,freertos" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RS485 MODBUS FreeRTOS Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-freertos-rs485-modbus</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_FreeRTOS_RS485_MODBUS</uri>
+    <description><![CDATA[This example demonstrates the RS485 interface capabilities using Modbus protocol.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_FreeRTOS_RS485_MODBUS/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,diablo16,lcd,4dsystems" req_capabilities_v2="[rdk2]">
+    <name>RDK2 Diablo16 uLCD Example</name>
+    <category>Graphics</category>
+    <id>rdk2-gen4-ulcd-43</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_GEN4_ULCD_43</uri>
+    <description><![CDATA[This firmware example demonstrates the usage of the 4D Systems DIABLO16 graphics controller.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_GEN4_ULCD_43/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,i2c,arduino" req_capabilities_v2="[rdk2]">
+    <name>RDK2 I2C Scanner Application</name>
+    <category>Peripherals</category>
+    <id>rdk2-i2c-scanner</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_I2C_Scanner</uri>
+    <description><![CDATA[This application is for finding all the devices connected to the I2C.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_I2C_Scanner/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,lvd,eeprom" req_capabilities_v2="[rdk2]">
+    <name>RDK2 LVD EEPROM</name>
+    <category>Peripherals</category>
+    <id>rdk2-lvd-eeprom</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_LVD_EEPROM</uri>
+    <description><![CDATA[This application is saving a 32bit value in emulated EEPROM. The low voltage detector (LVD) generate an interrupt to save the counter contend on shutdown.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_LVD_EEPROM/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,can,obd,obd2" req_capabilities_v2="[rdk2]">
+    <name>RDK2 CAN OBD2 Application</name>
+    <category>Peripherals</category>
+    <id>rdk2-obdii-application</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_OBDII_Application</uri>
+    <description><![CDATA[This application is intended to be used as a reference firmware example for the developers who need to quick-start with PSoC&#8482; 62 and CANFD OBD-II protocol.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_OBDII_Application/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2" req_capabilities_v2="[rdk2]">
+    <name>RDK2 Factory Firmware</name>
+    <category>Peripherals</category>
+    <id>rdk2-production</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_Production</uri>
+    <description><![CDATA[This firmware example is preprogrammed in a factory and used to test most of the peripherals on board.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_Production/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,qspi,semper,flash,xip,S25HL512" req_capabilities_v2="[rdk2]">
+    <name>RDK2 QSPI Flash XIP Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-qspi-flash-xip</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_QSPI_Flash_XIP</uri>
+    <description><![CDATA[This example demonstrates how to use serial flash library and XIP (execute-in-place) feature.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_QSPI_Flash_XIP/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,qspi,psram,APS6404L" req_capabilities_v2="[rdk2]">
+    <name>RDK2 QSPI PSRAM Dynamic Allocation Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-qspi-psram-dyn-alloc</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_QSPI_PSRAM_DYN_ALLOC</uri>
+    <description><![CDATA[This example demonstrates how to configure and use the PSRAM APS6404L-3SQR-ZR with standard dynamic memory allocation functions such as malloc() etc.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_QSPI_PSRAM_DYN_ALLOC/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,qspi,psram,APS6404L,xip" req_capabilities_v2="[rdk2]">
+    <name>RDK2 QSPI PSRAM XIP Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-qspi-psram-xip</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_QSPI_PSRAM_XIP</uri>
+    <description><![CDATA[This example demonstrates how to configure and use PSRAM APS6404L-3SQR-ZR in XIP mode.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_QSPI_PSRAM_XIP/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,bme688,bsec" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB1-SENSORFUSION BME688 BSEC Example</name>
+    <category>Sensing</category>
+    <id>rdk2-rab1-sensorfusion-bsec-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB1-SENSORFUSION_BSEC_Demo</uri>
+    <description><![CDATA[Rutronik Adapter Board 1 - Sensorfusion Demo Application. Bosch Software Environmental Cluster is used for the BME688 Sensor.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB1-SENSORFUSION_BSEC_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,bme688,bmi270,dps310,bmp581,sht41,sgp40" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB1-SENSORFUSION Demonstration</name>
+    <category>Sensing</category>
+    <id>rdk2-rab1-sensorfusion-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB1-SENSORFUSION_Demo</uri>
+    <description><![CDATA[This a demonstration of the RAB1-SENSORFUSION board. All the sensors: DPS310, BME688, BMI270, BMP581, SHT41, SGP40 are initialized and the measurement executed indefinitely.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB1-SENSORFUSION_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,bme690,bmi323,dps368,bmp585,sht41,sgp41,bmm350" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB7-SENSORFUSION Demonstration</name>
+    <category>Sensing</category>
+    <id>rdk2-rab7-sensorfusion-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB7-SENSORFUSION_Demonstration</uri>
+    <description><![CDATA[This code example reads the data from all the sensors on the RAB7-SENSORFUSION adapter board.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB7-SENSORFUSION_Demonstration/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,pas-co2,scd41" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB2-CO2 Example</name>
+    <category>Sensing</category>
+    <id>rdk2-rab2-co2-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB2-CO2_Demo</uri>
+    <description><![CDATA[This code example demonstrates the PAS CO2 and SCD41 sensors with the RDK2.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB2-CO2_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rtc,low-power" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RTC Hibernation Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-rtc-hibernate</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RTC_Hibernate</uri>
+    <description><![CDATA[This example demonstrates one of the low power modes: hibernation. RTC alarm is used as a wake-up source.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RTC_Hibernate/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,voice,epson" req_capabilities_v2="[rdk2]">
+    <name>RDK2 Epson Text-To-Speech Demo</name>
+    <category>Voice</category>
+    <id>rdk2-text-to-speech-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_TextToSpeech_Demo</uri>
+    <description><![CDATA[This example demonstrates the Rutronik's Text-To-Speech Arduino adapter control.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RTC_Hibernate/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,usb,cdc" req_capabilities_v2="[rdk2]">
+    <name>RDK2 USB CDC Test</name>
+    <category>Peripherals</category>
+    <id>rdk2-usb-cdc-test</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_USB_CDC_Test</uri>
+    <description><![CDATA[This example is used for testing the USB port and demonstrates the CDC device software features.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_USB_CDC_Test/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,usb,usb-pd,i2c,cypd3177" req_capabilities_v2="[rdk2]">
+    <name>RDK2 USB-PD CYPD3177 I2C Control Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-usb-power-delivery-i2c-control</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_USB_Power_Delivery_I2C_Control</uri>
+    <description><![CDATA[This example demonstrates how to access and control the CYPD3177 power delivery sink controller.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_USB_Power_Delivery_I2C_Control/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,usd,fat" req_capabilities_v2="[rdk2]">
+    <name>RDK2 uSD Card FAT Example</name>
+    <category>Peripherals</category>
+    <id>rdk2-usd-card-fat</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_uSD_Card_FAT</uri>
+    <description><![CDATA[This example demonstrates how to access uSD card using FAT file system.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_uSD_Card_FAT/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab4-rtk,um980" req_capabilities_v2="[rdk2]">
+    <name>RDK2 USB Bridge for UM980 RTK GNSS</name>
+    <category>Peripherals</category>
+    <id>rdk2-usb-uart-um980</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_USB_UART_UM980</uri>
+    <description><![CDATA[This is a universal code example that enables the UM980 to communicate with a host PC over the USB.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_USB_UART_UM980/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab4-rtk,um980" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3-Radar NJR4652 Config Tool</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-config-tool</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Config_Tool</uri>
+    <description><![CDATA[This ModusToolbox&#8482; application enables the RDK2 development kit and RAB3-Radar adapter board to be used with the Infineon Config Tool for the configuration of the Nisshinbo NJR4652 radar modules.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Config_Tool/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab4-rtk,um980" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3 Radar Fusion GUI Application</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-radar-fusion</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Fusion</uri>
+    <description><![CDATA[This ModusToolbox&#8482; application enables the RDK2 development kit and RAB3-Radar adapter board to be used with Infineon Radar Fusion GUI.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Fusion/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,tmf882x,tof" req_capabilities_v2="[rdk2]">
+    <name>RDK2 TMF882x Example</name>
+    <category>Sensing</category>
+    <id>rdk2-ams-tmf882x-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_AMS_TMF882x_Demo</uri>
+    <description><![CDATA[This code example demonstrates the ams ToF sensor's TMF8820 and TMF8828 capabilities.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_AMS_TMF882x_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,um980,rtk,rover" req_capabilities_v2="[rdk2]">
+    <name>RDK2 UM980 Rover Mode</name>
+    <category>Sensing</category>
+    <id>rdk2-um980-rovermode</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_UM980_RoverMode</uri>
+    <description><![CDATA[This example demonstrates how to use the RDK2 in combination with the RAB-RTK to read the position (latitude, longitude, and height) of the UM980 sensor.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_UM980_RoverMode/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3-Radar xensiv-radar-sensing</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-radar-sensing</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Sensing</uri>
+    <description><![CDATA[This code example is a BGT60TR13C Radar Presence Detection and Counting Persons algorithms demonstration. The ModusToolbox&#8482; project is based on the xensiv-radar-sensing library and its documentation. 
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Sensing/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,um980,rtk,rtk-base" req_capabilities_v2="[rdk2]">
+    <name>RDK2 UM980 Base Station</name>
+    <category>Sensing</category>
+    <id>rdk2-rab4-rtk-rtcm-station</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB4_RTK_UM980_RTCM_Base_Station</uri>
+    <description><![CDATA[This example demonstrates how to use the UM980 sensor as a base station.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB4_RTK_UM980_RTCM_Base_Station/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,le910c1,um980,rtk,rtk-rover,ntrip" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RTK Rover NTRIP LTE</name>
+    <category>Sensing</category>
+    <id>rdk2-rab4-rtk-le910c1-rover</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB4_RTK_LE910C1_Rover</uri>
+    <description><![CDATA[This project demonstrates how to use the Telit LE910C1 to receive correction data for the Unicore UM980 RTK module. 
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB4_RTK_LE910C1_Rover/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3-Radar Presence Detection and GUI</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-radar-presence-gui</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Presence_Detection</uri>
+    <description><![CDATA[This code example demonstrates digital signal processing implemented on a PSoC&#8482;62 for use with a BGT60TR13C radar sensor from Infineon.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_Presence_Detection/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
+    <name>RDK2 RAB3-Radar DSP with GUI</name>
+    <category>Sensing</category>
+    <id>rdk2-rab3-radar-dsp-gui</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_USB_Gateway</uri>
+    <description><![CDATA[This code example demonstrates digital signal processing implemented on the computer side to be used with a BGT60TR13C radar sensor from Infineon and an RDK2 development board from Rutronik.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK2_RAB3_Radar_USB_Gateway/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk2,intel,realsense" req_capabilities_v2="[rdk2]">
+    <name>RDK2 Intel RealSense Id Gateway</name>
+    <category>Sensing</category>
+    <id>rdk2-realsense-gateway</id>
+    <uri>https://github.com/RutronikSystemSolutions/IntelRealSenseIdGateway</uri>
+    <description><![CDATA[This project enables the control of an F450 module from Intel. The UART communication channel of the RDK2 is used for this purpose.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/IntelRealSenseIdGateway/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,led,uart,hello world" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Hello World</name>
+    <category>Getting Started</category>
+    <id>rdk3-hello-world</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_Hello_World</uri>
+    <description><![CDATA[This example is an introduction to the basic components of the board: LEDs, User Button 1 and KitProg3 UART for debug.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_Hello_World/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,adc,hal" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Arduino ADC HAL</name>
+    <category>Peripherals</category>
+    <id>rdk3-arduino-adc-hal</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_Arduino_ADC_HAL</uri>
+    <description><![CDATA[This example demonstrates how to use the HAL library to measure all the ADC channels on the Arduino ADC header.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_Arduino_ADC_HAL/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,beacon,eddystone" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Eddystone Beacon</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-beacon</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Beacon</uri>
+    <description><![CDATA[Eddystone Beacon Code Example.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_Beacon/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,find-me" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE Find Me</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-find-me</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me</uri>
+    <description><![CDATA[This is a typical code example that demonstrates a custom Bluetooth&#174; Low Energy &#34;Find Me&#34; Profile.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_Find_Me/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,heart-rate" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE ROHM Heart Rate Measurement</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-rohm-heart-rate</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_ROHM_Heart_Rate</uri>
+    <description><![CDATA[This code example demonstrates a Bluetooth&#174; Low Energy Heart Rate Service with a BH1792 optical heart rate sensor from ROHM.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_ROHM_Heart_Rate/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,sensorfusion,sensor-hub" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE Sensor Hub</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-sensorhub</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub</uri>
+    <description><![CDATA[This code example demonstrates the Android OS &#34;AIROC&#8482; Bluetooth&#174; Connect&#34; application&#8217;s custom Bluetooth&#174; Low Energy service &#34;Sensor Hub&#34;. The accelerometer, barometer, thermometer, and battery voltage data may be monitored using this service. The RAB1-SENSORFUSION demo board and Li-ION single-cell battery are needed additionally for this application to function properly.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_SensorHub/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,throughput-measurement-client" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE Throughput Measurement Client</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-throughput-measurement-client</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Client</uri>
+    <description><![CDATA[This is a code example for the Bluetooth&#174; Low Energy 5.1 Throughput Measurement GATT client device. Two RDK3 development kits are needed for this demo to function. One functions as a server and the other one as a client device.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Client/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,throughput-measurement-server" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE Throughput Measurement Server</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-troughput-measurement-server</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Server</uri>
+    <description><![CDATA[This is a code example for the Bluetooth&#174; Low Energy 5.1 Throughput Measurement GATT server device. Two RDK3 development kits are needed for this demo to function. One functions as a GATT server and the other one as a GATT client device.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_Throughput_Measurement_Server/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE ModusToolbox Application</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-modustoolbox-app</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_ModusToolbox_App</uri>
+    <description><![CDATA[This software enables to collect the data from the sensors (RAB1-SENSORFUSION, RAB2-CO2, AMS OSRAM TOF) and to send it over the Bluetooth&#174; LE to a connected client.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_ModusToolbox_App/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,radar-sensing,bgt60tr13c" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE BGT60TR13C Presence Detection</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-rab3-radar-presence</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_Radar_Presence_Detection</uri>
+    <description><![CDATA[This code example demonstrates the Infineon XENSIV&#8482; Presence Detection algorithm.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_Radar_Presence_Detection/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,capsense" req_capabilities_v2="[rdk3]">
+    <name>RDK3 CAPSENSE Buttons</name>
+    <category>Sensing</category>
+    <id>rdk3-capsense-buttons</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_CapSense_Buttons</uri>
+    <description><![CDATA[This code example demonstrates the CAPSENSE&#8482; buttons that are working in CSX mode.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_CapSense_Buttons/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,i2c,battery-charger" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Battery Charger I2C Control</name>
+    <category>Peripherals</category>
+    <id>rdk3-i2c-battcharger</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_I2C_BattCharger</uri>
+    <description><![CDATA[This code example demonstrates how to control the DIO59020 Single Li-ION /Polymer Cell battery charger using I2C peripheral.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_I2C_BattCharger/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,i2c,i2c-diagnostics,scanner" req_capabilities_v2="[rdk3]">
+    <name>RDK3 I2C Address Scanner</name>
+    <category>Peripherals</category>
+    <id>rdk3-i2c-scanner</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_I2C_Scanner</uri>
+    <description><![CDATA[This application is used to find all the devices connected to the I2C.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_I2C_Scanner/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,pmic,pmic-test" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Power Management IC Testing</name>
+    <category>Peripherals</category>
+    <id>rdk3-pmic-test</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_PMIC_Test</uri>
+    <description><![CDATA[This code example demonstrates the CYB06447BZI-BLD53's Power Management IC functionality.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_PMIC_Test/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,qspi,flash-access" req_capabilities_v2="[rdk3]">
+    <name>RDK3 QSPI Flash Access</name>
+    <category>Peripherals</category>
+    <id>rdk3-qspi-flash-access</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_QSPI_Flash_Access</uri>
+    <description><![CDATA[This example demonstrates how to access the external QSPI Flash S25FL064LABNFI043.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_QSPI_Flash_Access/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,qspi,psram,psram-dyn-alloc,psram-xip" req_capabilities_v2="[rdk3]">
+    <name>RDK3 QSPI PSRAM Dynamic Allocation</name>
+    <category>Peripherals</category>
+    <id>rdk3-qspi-psram-dyn-alloc</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_QSPI_PSRAM_DYN_ALLOC</uri>
+    <description><![CDATA[This example demonstrates how to configure and use the PSRAM APS1604M-3SQR-ZR with standard dynamic memory allocation functions such as malloc() etc.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_QSPI_PSRAM_DYN_ALLOC/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,i2c,co2-adapter-demo" req_capabilities_v2="[rdk3]">
+    <name>RDK3 RAB2-CO2 Demonstration</name>
+    <category>Sensing</category>
+    <id>rdk3-rab2-co2-adapter-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_RAB2_CO2_Adapter_Demo</uri>
+    <description><![CDATA[This code example demonstrates the PAS CO2 and SCD41 sensors with the RDK3.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_RAB2_CO2_Adapter_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,rtc,rtc-alarm,hibernation" req_capabilities_v2="[rdk3]">
+    <name>RDK3 RTC Hibernation</name>
+    <category>Peripherals</category>
+    <id>rdk3-rtc-hibernate</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_RTC_Hybernate</uri>
+    <description><![CDATA[This example demonstrates one of the low power modes: hibernation. RTC alarm is used as a wake-up source.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_RTC_Hybernate/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,i2c,sensorfusion-adapter-demo" req_capabilities_v2="[rdk3]">
+    <name>RDK3 RAB1-SENSORFUSION Demonstration</name>
+    <category>Sensing</category>
+    <id>rdk3-rab1-sensorfusion-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_SensorFusionAdapter_Demo</uri>
+    <description><![CDATA[Rutronik Adapter Board 1 - Sensorfusion with Rutronik Development Kit 3 Demo Application.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_SensorFusionAdapter_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,i2c,sensorfusion-adapter-demo" req_capabilities_v2="[rdk3]">
+    <name>RDK3 RAB7-SENSORFUSION Demonstration</name>
+    <category>Sensing</category>
+    <id>rdk3-rab7-sensorfusion-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_RAB7-SENSORFUSION_Demonstration</uri>
+    <description><![CDATA[This code example reads the data from all the sensors on the RAB7-SENSORFUSION adapter board.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_RAB7-SENSORFUSION_Demonstration/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,spi,text-to-speech" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Text-To-Speech Adapter Demonstration</name>
+    <category>Voice</category>
+    <id>rdk3-texttospeech-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_TextToSpeech_Demo</uri>
+    <description><![CDATA[This example demonstrates the Rutronik's Text-To-Speech Arduino adapter control.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_TextToSpeech_Demo/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,i2c,omron,d6t32l01a" req_capabilities_v2="[rdk3]">
+    <name>RDK3 OMRON D6T32L01A Demonstration</name>
+    <category>Sensing</category>
+    <id>rdk3-d6t32l01a-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_D6T32L01A_Demo</uri>
+    <description><![CDATA[This is the OMRON D6T32L01A sensor demonstration in ModusToolbox&#8482; IDE using the Rutronik RDK3 development kit.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_D6T32L01A_Demo/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,rab4-rtk,um980" req_capabilities_v2="[rdk3]">
+    <name>RDK3 USB Bridge for UM980 RTK GNSS</name>
+    <category>Peripherals</category>
+    <id>rdk3-usb-uart-um980</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_USB_UART_UM980</uri>
+    <description><![CDATA[This is a universal code example that enables the UM980 to communicate with a host PC over the USB.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_USB_UART_UM980/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,vcnl4200,proximity,ambient-light" req_capabilities_v2="[rdk3]">
+    <name>RDK3 VCNL4200 Code Example</name>
+    <category>Sensing</category>
+    <id>rdk3-vcnl4200</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_VCNL4200_Example</uri>
+    <description><![CDATA[Measuring the proximity and ambient light with a VCNL4200 from VISHAY.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_VCNL4200_Example/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rdk3,ble,enocean" req_capabilities_v2="[rdk3]">
+    <name>RDK3 Bluetooth LE EnOcean</name>
+    <category>Bluetooth&#174;</category>
+    <id>rdk3-ble-enocean</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK3_BLE_EnOcean</uri>
+    <description><![CDATA[This example illustrates how to use an RDK3 to listen to telegrams of EnOcean Bluetooth&#174; Low Energy &#34; switches PTM216B.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK3_BLE_EnOcean/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino ble bsp_gen4 capsense cat1 cat1a comp dac dma flash_832k hal i2c led low_power lptimer mcu_gp opamp psoc6 qspi rdk3 rtc secure_boot smart_io spi sram_288k std_crypto switch uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4,led,uart,hello world" req_capabilities_v2="[rdk4]">
+    <name>RDK4 Hello World</name>
+    <category>Getting Started</category>
+    <id>rdk4-hello-world</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_Hello_World</uri>
+    <description><![CDATA[This example is an introduction to the basic components of the board: LEDs, Buttons and KitProg3 UART for debug.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_Hello_World/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 Empty Application</name>
+    <category>Getting Started</category>
+    <id>empty-rdk4-app</id>
+    <uri>https://github.com/RutronikSystemSolutions/Empty_RDK4_App</uri>
+    <description><![CDATA[This example is for creating new ModusToolbox&#8482; project with the RDK4.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/Empty_RDK4_App/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 ADC HAL Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-arduino-adc-hal</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_Arduino_ADC_HAL</uri>
+    <description><![CDATA[This example demonstrates how to use the HAL library to measure all the ADC channels on the Arduino ADC header. 
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_Arduino_ADC_HAL/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 CAPSENSE Buttons</name>
+    <category>Sensing</category>
+    <id>rdk4-capsense-buttons</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_CapSense_Buttons</uri>
+    <description><![CDATA[This code example demonstrates the CAPSENSE&#8482; buttons that are working in CSX mode.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_CapSense_Buttons/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 Environment Monitoring Station</name>
+    <category>Sensing</category>
+    <id>rdk4-ems</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_EnvironmentMonitoringStation</uri>
+    <description><![CDATA[This is a demonstration of the sensors SHT41 [temperature and humidity], DPS310 [atmospheric pressure], SGP40 [air quality index], SCD41 [CO2 concentration], and the smart display GEN4-ULCD-43DCT-CLB. Everything is connected to the main controller - RDK4 board.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_EnvironmentMonitoringStation/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 I2C Scanner</name>
+    <category>Peripherals</category>
+    <id>rdk4-i2c-scanner</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_I2C_Scanner</uri>
+    <description><![CDATA[This application is used to find all the devices connected to the I2C.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_I2C_Scanner/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 SBC OBD2 Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-sbc-obd2-example</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_SBC_OBDII_Example</uri>
+    <description><![CDATA[This application is to be used as a reference firmware example for the developers who need to quick-start with PSoC&#8482; 4100S Max and System Basis Chip TLE9262-3BQXV33 CANFD OBD-II protocol.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_SBC_OBDII_Example/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 SBC Power Management Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-sbc-power-management</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_SBC_Power_Management</uri>
+    <description><![CDATA[System Basis Chip TLE9262-3BQX power supply VCC3 testing firmware.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_SBC_Power_Management/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 SBC Wake Up Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-sbc-wakeup</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_SBC_WAKEUP</uri>
+    <description><![CDATA[Testing the TLE9262-3BQX SBC's "Ignition Signal" wake-up function.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_SBC_WAKEUP/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 RGB LED Test</name>
+    <category>Peripherals</category>
+    <id>rdk4-rgb-led-test</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_RGB_LED_Test</uri>
+    <description><![CDATA[This example is for RGB LED "USER LED D10" testing.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_RGB_LED_Test/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4" req_capabilities_v2="[rdk4]">
+    <name>RDK4 LIN Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-sbc-lin</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_SBC_LIN_Example</uri>
+    <description><![CDATA[This code example demonstrates a LIN 2.2 ISO17987 connectivity using TLE9262-3BQX System Basis Chip.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_SBC_LIN_Example/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense cat2 comp dma flash_384k hal i2c led rgb_led lin lptimer mcu_gp msc msc_button opamp psoc4 smart_io spi sram_32k std_crypto switch rdk4 uart udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4,rab4-rtk,um980" req_capabilities_v2="[rdk4]">
+    <name>RDK4 USB Bridge for UM980 RTK GNSS</name>
+    <category>Peripherals</category>
+    <id>rdk4-usb-uart-um980</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_USB_UART_UM980</uri>
+    <description><![CDATA[This is a universal code example that enables the UM980 to communicate with a host PC over the USB.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_USB_UART_UM980/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4,can," req_capabilities_v2="[rdk4]">
+    <name>RDK4 SBC CAN Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-sbc-can</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_SCB_CAN</uri>
+    <description><![CDATA[This application is to be used as a reference firmware example for the developers who need to quickly start with PSoC&#8482; 4100S Max and System Basis Chip TLE9262-3BQXV33 CAN interface.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_SCB_CAN/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4,led,osire" req_capabilities_v2="[rdk4]">
+    <name>RDK4 RAB5-OSIRE Demonstration</name>
+    <category>Peripherals</category>
+    <id>rdk4-rev2-rab5-osire-demo</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_REV2_RAB5-OSIRE_DEMO</uri>
+    <description><![CDATA[The Rutronik RAB5-OSIRE and ams OSRAM RGBi-GUI-MicroController ModusToolbox&#8482; project. 
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_REV2_RAB5-OSIRE_DEMO/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,rdk4,led,osire" req_capabilities_v2="[rdk4]">
+    <name>RDK4 RAB5-OSIRE SAID Code Example</name>
+    <category>Peripherals</category>
+    <id>rdk4-rab5-osire-said</id>
+    <uri>https://github.com/RutronikSystemSolutions/RDK4_RAB5-OSIRE_SAID</uri>
+    <description><![CDATA[RAB5-OSIRE AS1163 SAID code example for the development with the RDK4 and ModusToolbox&#8482;.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RDK4_RAB5-OSIRE_SAID/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>adc arduino bsp_gen4 can capsense capsense_linear_slider cat1 cat1a comp csd dma flash_512k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm pot psoc6 qspi rtc sdhc smart_io spi sram_256k std_crypto switch uart usb_device usb_host udb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+</apps>
