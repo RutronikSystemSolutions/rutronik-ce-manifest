@@ -740,6 +740,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,bgt60tr13c" req_capabilities_v2="[cy8ckit_062s2_ai]">
+    <name>CY8CKIT-062S2-AI Radar Fusion GUI</name>
+    <category>Sensing</category>
+    <id>cy8ckit-062s2-ai-radar_fusion_gui</id>
+    <uri>https://github.com/RutronikSystemSolutions/CY8CKIT_062S2_AI_Radar_Fusion_GUI</uri>
+    <description><![CDATA[Enables to use the CY8CKIT 062S2 AI with the Radar Fusion GUI.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/CY8CKIT_062S2_AI_Radar_Fusion_GUI/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,rdk3,led,uart,hello world" req_capabilities_v2="[rdk3]">
     <name>RDK3 Hello World</name>
     <category>Getting Started</category>
