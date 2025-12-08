@@ -759,7 +759,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pse84,bgt60tr13c,ov7675,usb" req_capabilities_v2="[kit_pse84_ai]">
+  <app keywords="pse84,bgt60tr13c,ov7675,usb" req_capabilities_v2="[pse8xxgp]">
     <name>Rutronik PSOC EDGE E84 OV7675 and BGT60TR13C USB Streaming</name>
     <category>Sensing</category>
     <id>kit-pse84-ai-sensor-usb-streaming</id>
