@@ -778,6 +778,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="pse84,bgt60tr13c,ov7675,usb" req_capabilities_v2="[kit_pse84_ai]">
+    <name>Rutronik PSOC EDGE E84 OV7675 and BGT60TR13C WIFI Streaming</name>
+    <category>Sensing</category>
+    <id>kit-pse84-ai-sensor-wifi-streaming</id>
+    <uri>https://github.com/RutronikSystemSolutions/kit_pse84_ai_sensor_wifi_streaming</uri>
+    <description><![CDATA[Enables to stream data from the OV7675 camera and the BGT60TR13C radar to your computer using WIFI.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/kit_pse84_ai_sensor_wifi_streaming/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,rdk3,led,uart,hello world" req_capabilities_v2="[rdk3]">
     <name>RDK3 Hello World</name>
     <category>Getting Started</category>
