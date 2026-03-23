@@ -569,7 +569,7 @@
       </version>
     </versions>
   </app>
-    <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
+  <app keywords="psoc6,rdk2,rab3-radar,bgt60tr13c" req_capabilities_v2="[rdk2]">
     <name>RDK2 RAB3-Radar Level Measurement</name>
     <category>Sensing</category>
     <id>rdk2-rab3-radar-level-measurement</id>
