@@ -1659,7 +1659,7 @@
     <uri>https://github.com/RutronikSystemSolutions/CYBT-243053-EVAL-BT_SPP_BLE_HID</uri>
     <description><![CDATA[Illustrates how to use BT SPP and BLE HID on the CYBT-243053-EVAL board.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/CYBT-243053-EVAL-BT_SPP_BLE_HID/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
-    <req_capabilities>led</req_capabilities>
+    <req_capabilities>btsdk</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest v1.X release</num>
