@@ -1652,7 +1652,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="btsdk,spp" req_capabilities_v2="[cybt_243053_eval]">
+  <app keywords="btsdk,spp" req_capabilities_v2="[CYBT_243053_EVAL]">
     <name>Rutronik BT SPP and BLE HID</name>
     <category>Bluetooth&#174;</category>
     <id>cybt_243053_eval_bt_spp_ble_hid</id>
