@@ -1671,7 +1671,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,i2c-scanner" req_capabilities_v2="[RAK_GAN]">
+  <app keywords="i2c,i2c-scanner" req_capabilities_v2="[APP_RAK_GAN]">
     <name>RAK-GAN I2C Scanner</name>
     <id>rak-gan-i2c-scanner</id>
     <category>Peripherals</category>
@@ -1680,17 +1680,17 @@
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RAK_GAN_I2C_SCANNER/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
     <req_capabilities>adc bsp_gen5 cat1 cat1b comp dma flash_256k hal hppass i2c low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="buck," req_capabilities_v2="[RAK_GAN]">
+  <app keywords="buck,power-converter" req_capabilities_v2="[APP_RAK_GAN]">
     <name>RAK-GAN Power Converter</name>
     <id>rak-gan-power-converter</id>
     <category>Power Conversion</category>
