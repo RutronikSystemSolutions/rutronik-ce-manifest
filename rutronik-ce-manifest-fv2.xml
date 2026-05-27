@@ -1671,7 +1671,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,i2c-scanner" req_capabilities_v2="[APP_RAK_GAN]">
+  <app keywords="i2c,i2c-scanner" req_capabilities_v2="[RAK_GAN]">
     <name>RAK-GAN I2C Scanner</name>
 	<category>Peripherals</category>
     <id>rak-gan-i2c-scanner</id>
@@ -1690,7 +1690,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="buck,power-converter" req_capabilities_v2="[APP_RAK_GAN]">
+  <app keywords="buck,power-converter" req_capabilities_v2="[RAK_GAN]">
     <name>RAK-GAN Power Converter</name>
 	<category>Power Conversion</category>
     <id>rak-gan-power-converter</id>
