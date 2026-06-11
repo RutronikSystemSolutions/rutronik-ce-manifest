@@ -1690,20 +1690,96 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,i2c-scanner" req_capabilities_v2="[RAK_GAN]">
+  <app keywords="i2c,i2c-scanner" req_capabilities_v2="[rak_gan]">
     <name>RAK-GAN I2C Scanner</name>
     <id>rak-gan-i2c-scanner</id>
     <category>Peripherals</category>
     <uri>https://github.com/RutronikSystemSolutions/RAK_GAN_I2C_SCANNER</uri>
     <description><![CDATA[This application is designed to detect all devices connected to the I2C bus.
     <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RAK_GAN_I2C_SCANNER/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
-    <req_capabilities>adc bsp_gen5 cat1 cat1b comp dma flash_256k hal hppass i2c low_power lptimer mcu_gp psc3m5 rtc smart_io spi sram_64k std_crypto uart</req_capabilities>
+    <req_capabilities>rak_gan</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="can,canfd,obd2" req_capabilities_v2="[rak_gan]">
+    <name>RAK-GAN CAN OBD-II</name>
+    <id>rak-gan-can-obd2</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/RutronikSystemSolutions/RAK_GAN_CAN_OBD2</uri>
+    <description><![CDATA[RAK-GAN Code Example for OBDII Protocol.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RAK_GAN_CAN_OBD2/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>rak_gan</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="buck,power-converter" req_capabilities_v2="[rak_gan]">
+    <name>RAK-GAN Power Converter</name>
+    <id>rak-gan-power-converter</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/RutronikSystemSolutions/RAK_GAN_POWER_CONVERTER</uri>
+    <description><![CDATA[This application demonstrates the development of a DC/DC buck converter using the RAK-GAN board from Rutronik System Solutions.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RAK_GAN_POWER_CONVERTER/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>rak_gan</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="buck,power-converter" req_capabilities_v2="[rak_gan]">
+    <name>RAK-GAN Power Supply OLED Display</name>
+    <id>rak-gan-power-supply-control</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/RutronikSystemSolutions/RAK_GAN_POWER_SUPPLY_CONTROL</uri>
+    <description><![CDATA[The DC Power Supply application features adjustable voltage and current outputs, which are controlled via a touch-capable OLED screen.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RAK_GAN_POWER_SUPPLY_CONTROL/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>rak_gan</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="motor,motor-driver,drone" req_capabilities_v2="[rak_gan]">
+    <name>RAK-GAN Drone Motor Test</name>
+    <id>rak-gan-drone-motor-test</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/RutronikSystemSolutions/RAK_GAN_DRONE_MOTOR_TEST</uri>
+    <description><![CDATA[This code example was created to test the RAK-GAN with the MIAT8318 100KV motor.
+    <br><br>For more details, see the <a href="https://github.com/RutronikSystemSolutions/RAK_GAN_DRONE_MOTOR_TEST/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://www.rutronik.com/innovations">Rutronik Systems Solutions</a> combine the best products based on their features and performance aiming at creating innovative and best-in-class solutions. Thus, we decisively shorten the time-to-market in dynamic industrial environments. Customers gain the necessary decision-making freedom in the research and pre-development phase and a time advantage over competitors.<br>]]></description>
+    <req_capabilities>rak_gan</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen5">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
